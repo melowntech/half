@@ -1,4 +1,7 @@
-define_module(LIBRARY half DEPENDS)
+# bump version here
+set(half_VERSION 1.1)
+
+define_module(LIBRARY half=${half_VERSION} DEPENDS)
 
 set(half_SOURCES
   half.hpp
