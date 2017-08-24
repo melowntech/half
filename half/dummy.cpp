@@ -1,0 +1,1 @@
+namespace half { void dummy() {} }

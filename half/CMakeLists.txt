@@ -5,6 +5,7 @@ define_module(LIBRARY half=${half_VERSION} DEPENDS)
 
 set(half_SOURCES
   half.hpp
+  dummy.cpp
 )
 
 add_library(half STATIC ${half_SOURCES})
